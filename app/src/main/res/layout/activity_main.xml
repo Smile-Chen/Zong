@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    >
+    <Button
+        android:id="@+id/btn_recyclerview"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="93dp"
+        android:background="#ccff00"
+        android:text="多条目加载" />
+
+    <Button
+        android:id="@+id/btn_flow"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_recyclerview"
+        android:layout_toEndOf="@+id/btn_recyclerview"
+        android:layout_toRightOf="@+id/btn_recyclerview"
+        android:background="#00ccff"
+        android:text="流式布局" />
+
+    <Button
+        android:id="@+id/btn_shoppingcar"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btn_flow"
+        android:layout_alignStart="@+id/btn_flow"
+        android:layout_below="@+id/btn_flow"
+        android:layout_marginTop="92dp"
+        android:background="#ffcc"
+        android:text="购物车" />
+
+    <Button
+        android:id="@+id/btn_classify"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_shoppingcar"
+        android:layout_toLeftOf="@+id/btn_shoppingcar"
+        android:layout_toStartOf="@+id/btn_shoppingcar"
+        android:background="#ff3399"
+        android:text="分类" />
+
+
+</RelativeLayout>
